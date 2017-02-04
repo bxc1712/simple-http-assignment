@@ -1,0 +1,30 @@
+{
+  "name": "no_proj",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "description": "New Node Project",
+  "main": "./js/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/simple-http-assignment.git"
+  },
+  "author": "BC",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/simple-http-assignment/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/simple-http-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
